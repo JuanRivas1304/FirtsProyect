@@ -1,8 +1,6 @@
-import { SessionProvider } from "next-auth/react";
-import ClientLayout from './layout-client';
 import "./globals.css";
 import localFont from "next/font/local";
-import { Providers } from './Providers'
+import { Providers } from '../app/providers'
 import Navbar from '@/components/Navbar'
 
 const geistSans = localFont({
